@@ -1,1 +1,21 @@
+Adicionar arquivos ao git:
+Certifique-se de estar no diretório raiz do seu projeto no terminal. Em seguida, adicione todos os arquivos que foram modificados ao git usando o seguinte comando:
 
+csharp
+Copy code
+git add .
+Commit das alterações:
+Depois de adicionar os arquivos, você precisa fazer um commit das alterações. Isso registra as alterações feitas nos arquivos no histórico do repositório git. Use o seguinte comando para fazer um commit:
+
+sql
+Copy code
+git commit -m "Mensagem descrevendo as alterações feitas"
+Push para o GitHub:
+Agora que você fez o commit das suas alterações, é hora de enviá-las para o GitHub. Use o comando git push seguido do nome do seu repositório remoto (provavelmente chamado de origin) e do nome do ramo (geralmente main ou master). Se for a primeira vez que você está fazendo push deste ramo para o GitHub, você precisará especificar o upstream:
+
+css
+Copy code
+git push -u origin main
+Depois de configurar o upstream uma vez, você pode usar simplesmente git push.
+
+Com esses passos, suas alterações locais devem ser enviadas para o GitHub. Certifique-se de ter permissões de gravação no repositório remoto para realizar o push com sucesso.
